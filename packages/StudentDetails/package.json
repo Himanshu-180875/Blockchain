@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.13",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "web3": "^1.7.5"
+  },
+  "name": "studentdetails",
+  "description": "This smart contract is for creating the certificate of student record, and this certificate can only be added by the education institute, and it checks whether the certificate of the student is unique because every student has unique details, any other can also verify the certificate details by just entering the hash of the certificate. To set up this you need:",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "truffle migrate",
+    "reset":"truffle migrate --reset",
+    "goerli":"truffle migrate --network goerli",
+    "goerli-reset":"truffle migrate --network goerli --reset"
+  },
+  "author": "",
+  "license": "ISC"
+}

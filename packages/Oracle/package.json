@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "web3": "^1.7.5"
+  },
+  "name": "oracle",
+  "description": "This is a oracle smart contract for publishing the contract for local node. To set up you need: Setup Requirement We require below services/software on system for project setup.",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "truffle migrate",
+    "reset":"truffle migrate --reset",
+    "goerli":"truffle migrate --network goerli",
+    "goerli-reset":"truffle migrate --network goerli --reset"
+  },
+  "author": "",
+  "license": "ISC"
+}

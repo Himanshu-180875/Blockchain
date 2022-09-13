@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.1.8"
+  },
+  "scripts": {
+    "start": "lerna run start --stream --scope={lottery}",
+    "reset":"lerna run reset --stream --scope=apiconsumerchainlink",
+    "goerli":"lerna run goerli --stream --scope=studentdetails",
+    "goerli-reset":"lerna run goerli-reset --stream --scope=studentdetails",
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  }
+}

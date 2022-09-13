@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "web3": "^1.7.5"
+  },
+  "name": "pricefeedchainlink",
+  "description": "This smart contract is used to fetch the data from chainlink data feeds, and these data come from various node operators and then aggregated, so I'm consuming the aggregatorInterface, So if you want to test this amazing thing you need:",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "truffle migrate",
+    "reset":"truffle migrate --reset",
+    "goerli":"truffle migrate --network goerli",
+    "goerli-reset":"truffle migrate --network goerli --reset"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "web3": "^1.7.5"
+  },
+  "name": "lottery",
+  "description": "This smart contract is of Lottery like game where participants come and buy a ticket for some value and then after some number of required participants there is some random selection of winner and all the collected amount will sent to the winner. so, to test this you need:",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "truffle migrate",
+    "reset":"truffle migrate --reset",
+    "goerli":"truffle migrate --network goerli",
+    "goerli-reset":"truffle migrate --network goerli --reset"
+  },
+  "author": "",
+  "license": "ISC"
+}
